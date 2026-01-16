@@ -14,7 +14,7 @@
             ]"
             :key="containerIndex"
             :class="containerClass"
-            :style="{ opacity: 0.125 + 0.012 * rowIndex }"
+            :style="{ opacity: 0.15 + 0.015 * rowIndex }"
           >
             <svg
               :width="row[containerIndex].length * 40"
