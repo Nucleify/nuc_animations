@@ -1,7 +1,6 @@
 import type { Ref } from 'vue'
 
 import { calculateDimensions, updateHexagonPatterns } from '.'
-
 import type { HexagonConfigInterface } from '../types'
 
 export const updateImagesPerRow = (
