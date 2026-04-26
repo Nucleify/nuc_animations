@@ -27,7 +27,7 @@
                 :class="'hexagon-' + imgIndex"
                 :style="{ opacity: opacity }"
                 :points="getHexagonPoints(20 + imgIndex * 40, 20, 20)"
-                stroke="#10b981"
+                stroke="#34d999"
                 stroke-width="2"
               />
             </svg>
