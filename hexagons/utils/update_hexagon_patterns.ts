@@ -1,5 +1,5 @@
-import { generateRowPattern } from '.'
-import type { HexagonPatternsType } from '../types'
+import type { HexagonPatternsType } from 'nucleify'
+import { generateRowPattern } from 'nucleify'
 
 export function updateHexagonPatterns(
   totalRows: number,

@@ -1,7 +1,7 @@
 import type { Ref } from 'vue'
 
-import { calculateDimensions, updateHexagonPatterns } from '.'
-import type { HexagonConfigInterface } from '../types'
+import type { HexagonConfigInterface } from 'nucleify'
+import { calculateDimensions, updateHexagonPatterns } from 'nucleify'
 
 export const updateImagesPerRow = (
   containerRef: Ref<HTMLElement | null>,

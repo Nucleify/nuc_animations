@@ -1,10 +1,10 @@
-import type { HexagonConfigInterface } from '../types'
+import type { HexagonConfigInterface } from 'nucleify'
 import {
   HEXAGON_HEIGHT,
   HEXAGON_OVERLAP_FACTOR,
   HEXAGON_WIDTH,
   HEXAGON_WIDTH_FACTOR,
-} from '../variables'
+} from 'nucleify'
 
 export function calculateDimensions(
   containerWidth: number,

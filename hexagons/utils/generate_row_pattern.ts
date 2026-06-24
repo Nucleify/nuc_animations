@@ -1,4 +1,4 @@
-import type { HexagonRowType } from '../types'
+import type { HexagonRowType } from 'nucleify'
 
 export function generateRowPattern(
   rowIndex: number,

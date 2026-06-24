@@ -1,11 +1,9 @@
-export * from './nuc_animations'
-
 export * from './hexagons/constants/options'
-export { default as NucAnimationHexagons } from './hexagons/index.vue'
+export * from './hexagons/index.tsx'
 export * from './hexagons/types/interfaces'
 export * from './hexagons/types/variables'
 export * from './hexagons/utils/calculate_dimensions'
 export * from './hexagons/utils/generate_row_pattern'
 export * from './hexagons/utils/get_hexagon_points'
 export * from './hexagons/utils/update_hexagon_patterns'
-export * from './hexagons/utils/update_images_per_row'
+export * from './hexagons/utils/update_images_per_row.react'

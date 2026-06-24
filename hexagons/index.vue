@@ -41,8 +41,11 @@
 <script setup lang="ts">
 import { onBeforeUnmount, onMounted, ref } from 'vue'
 
-import { getHexagonPoints, updateImagesPerRow } from './utils'
-import { PATTERN_UPDATE_INTERVAL } from './variables'
+import {
+  getHexagonPoints,
+  PATTERN_UPDATE_INTERVAL,
+  updateImagesPerRow,
+} from 'nucleify'
 
 const containerRef = ref<HTMLElement | null>(null)
 const imagesPerRow = ref(0)
